@@ -1,0 +1,43 @@
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   text-align: center;
+   color: #121212;
+}
+
+#stadium-img {
+    width: 380px;
+    border: 3px solid #121212;
+}
+
+#email-input {
+    padding: 10px;
+    width: 250px;
+    border: 3px solid #121212;
+    margin: 20px 0 12px 0;
+    color: #121212;
+}
+
+#email-input::placeholder {
+    text-align: center;
+    font-weight: bold;
+}
+
+#join-btn {
+    padding: 10px;
+    width: 274px;
+    background-color: #121212;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #121212;
+    margin-bottom: 10px;
+}
+
+#information, #terms-of-service-link {
+    font-style: italic;
+} 
+
+a {
+    color: #121212;
+}
